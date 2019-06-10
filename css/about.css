@@ -1,0 +1,105 @@
+.content{
+    padding-bottom: 170px;
+}
+.big-picture{
+    width: 1200px;
+    height: 1110px;
+    margin-bottom: 40px;
+}
+.big-picture img{
+    width: 100%;
+    display: block;
+} 
+.introduce{
+    margin-bottom: 40px;
+}
+.introduce .img-wrap{
+    width: 476px;
+    height: 484px;
+    margin-right: 40px;
+    float: left;
+}
+.introduce .text{
+    float: left;
+}
+.introduce .text h3{
+    width: 540px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 400;
+    border-bottom: 2px solid #f5f5f5;
+    margin-bottom: 10px;
+}
+.introduce .text p{
+    font-size: 22px;
+    color: #000000;
+    line-height: 34px;
+}
+
+.headline{
+    width: 100%;
+    height: 104px;
+    line-height: 104px;
+    font-size: 34px;
+    text-align: center;
+    color: #ffffff;
+    background: #243e99;
+    margin-bottom: 78px;
+    letter-spacing: 5px;
+}
+.album-list{
+    margin-bottom: 56px;
+}
+.album-list .item{
+    float: left;
+    margin:  0 10px 10px 0;
+}
+.album-list .item:nth-child(3n){
+    margin-right: 0;
+}
+
+.dormitory-picture {
+    margin-bottom: 80px;
+}
+.dormitory-picture .item{
+    float: left;
+}
+.dormitory-picture .item:nth-child(even){
+    float: right;
+}
+.dormitory-close{
+    margin-bottom: 116px;
+}
+.cost-description{
+    text-align: center;
+    line-height: 44px;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+.content .consultBtn{
+	width: 682px;
+	height: 120px;
+	font-size: 28px;
+	color: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	border-radius: 12px;
+	background-color: #7ed321;
+    cursor: pointer;
+    margin: 0 auto;
+	
+}
+.content .consultBtn .icon{
+	margin-right: 7px;
+}
+.content .consultBtn .icon img{
+	vertical-align: middle;
+}
