@@ -40,6 +40,11 @@ li{
 	list-style-type: none;
 }
 
+@font-face{
+	font-family: 'pangmenzhengdao';
+	src: url('../font/庞门正道标题体2.0增强版.ttf');
+}
+
 /*清除浮动*/	
 .clearfix:before{
 	display:block;
@@ -79,7 +84,11 @@ li{
 }
 .header .top .inner-wrap{
 	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 .header .top .tel{
@@ -101,8 +110,14 @@ li{
 }
 .header .bottom .inner-wrap{
 	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
 	justify-content: space-between;
 }
 
@@ -110,7 +125,11 @@ li{
 .header .logo{
     width: 130px;
 	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 
@@ -177,4 +196,109 @@ li{
 .header .nav .sub-list .sub-item:hover a{
 	color: #ffffff;
 	background-color: #253b94;
+}
+
+
+
+/* 公共底部 */
+.footer{
+	width: 100%;
+	height: 845px;
+	color: #ffffff;
+	background-color: #48546d;
+}
+.footer .inner-wrap{
+	height: 100%;
+	position: relative;
+}
+.footer .backTop{
+	cursor: pointer;
+	position: absolute;
+	top: 140px;
+	right: 0;
+
+}
+.footer .logo,.footer .qr-code,.footer .contact-way{
+	float: left;
+}
+.footer .logo{
+	margin-top: 180px;
+	margin-right: 138px;
+}
+.footer .qr-code{
+	text-align: center;
+	margin-top: 185px;
+	margin-right: 74px;
+}
+.footer .qr-code p{
+	line-height: 55px;
+	font-size: 20px;
+}
+.footer .contact-way{
+	width: 366px;
+	margin-top: 130px;
+}
+.footer .contact-way div{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 18px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-bottom: 50px;
+	line-height: 28px;
+}
+.footer .contact-way div:last-child{
+	margin-bottom: 0;
+}
+.footer .contact-way .icon{
+	margin-right: 15px;
+	vertical-align: middle;
+}
+.footer .copyright{
+	font-size: 18px;
+	margin-bottom: 70px;
+}
+.footer .footerNav li{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	font-size: 18px;
+	border-right: 2px solid #ffffff;
+	padding:0 9px;
+	box-sizing: border-box;
+}
+.footer .footerNav li:last-child{
+	border-right: none;
+}
+.footer .footerNav li a {
+	color: #ffffff;
+}
+.footer .consultBtn{
+	width: 122px;
+	height: 66px;
+	font-size: 16px;
+	color: #253b94;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	border-radius: 12px;
+	background-color: #c8e3f9;
+	cursor: pointer;
+	position: absolute;
+	bottom: 218px;
+	left: 0;
+}
+.footer .consultBtn .icon{
+	margin-right: 7px;
+}
+.footer .consultBtn .icon img{
+	vertical-align: middle;
 }
