@@ -1,0 +1,257 @@
+.title{
+    font-size: 30px;
+    height: 228px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* 选择理由 */
+.choice-reasons{
+    padding-bottom: 94px;
+}
+.choice-reasons .title{
+    font-size: 60px;
+}
+.choice-reasons .reasons-list{
+    padding: 0 50px;
+}
+.choice-reasons .reasons-list li{
+    width: 540px;
+    height: 424px;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    position: relative;
+}
+.choice-reasons .reasons-list li img{
+    width: 100%;
+    display: block;
+}
+.choice-reasons .reasons-list li:nth-child(even){
+    float: right;
+}
+.choice-reasons .reasons-list li .mask{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background: rgba(0,0,0,.3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/* 学员生活 */
+.student-life{
+    width: 100%;
+    background-color: #eeeeee;
+}
+.student-life .title{
+    font-size: 30px;
+    height: 228px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.student-life .title h4{
+    font-size: 14px;
+}
+.student-life .life-list .item{
+    width: 282px;
+    height: 422px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+.student-life .life-list .item:last-child{
+    margin-right: 0;
+}
+.student-life .life-list .mask{
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.student-life .life-list .mask h3{
+    font-size: 30px;
+}
+.student-life .life-list .mask h4{
+    font-size: 24px;
+}
+
+
+/* 校园视频 */
+.video-wrap{
+    width: 100%;
+    background-color: #eeeeee;
+}
+.video{
+    width: 1200px;
+    height: 680px;
+    margin: 0 auto;
+    background: url(../images/video-bg.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+    margin-bottom: 18px;
+}
+.video .prism-player{
+    width: 690px;
+    height: 388px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 3;
+    transform: translate(-50%,-50%);
+}
+.video .more{
+    width: 228px;
+    height: 80px;
+    font-size: 20px;
+    background-color: #4a90e2;
+    border-radius: 15px;
+    padding: 0 30px 0 18px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+}
+.video .more a{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.video .more .icon{
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4a90e2;
+    font-size: 30px;
+}
+.decTit{
+    height: 106px;
+    line-height: 106px;
+    font-size: 30px;
+}
+
+/* 故事 */
+.story-wrap img{
+    margin: 48px auto 18px;
+}
+
+/* 公共标题 */
+.headline{
+    height: 250px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.headline h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.headline span{
+    width: 28px;
+    height: 1px;
+    background-color: #4a90e2;
+    display: inline-block;
+}
+
+.good-schools{
+    background-color: #eeeeee;
+    padding-top: 50px;
+}
+.schools-list .item{
+    width: 380px;
+    height: 550px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #ccc;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.schools-list .item:last-child{
+    margin-right: 0;
+}
+.schools-list .item .img-wrap{
+    width: 380px;
+    height: 380px;
+    text-align: center;
+}
+.schools-list .item .img-wrap img{
+    max-width: 100%;
+}
+.schools-list .item .text{
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.schools-list .item .text h3{
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+}
+.schools-list .item .text p{
+    font-size: 12px;
+}
+
+.more-link{
+    width: 652px;
+    height: 122px;
+    line-height: 122px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #253b94;
+    border-radius: 55px;
+    margin: 0 auto;
+}
+.more-link a{
+    color: #ffffff;
+    display: inline-block;
+}
+
+/* 热门景点 */
+.hot-spots{
+    background-color: #eeeeee;
+}
+.spots-list .item .img-wrap{
+    width: 380px;
+    height: 290px;
+    overflow: hidden;
+}
+.spots-list .item{
+    width: 380px;
+    height: 582px;
+    background-color: #fff;
+}
+.spots-list .item .img-wrap img{
+    max-width: 100%;
+}
+.hot-spots .more-link{
+   
+}
