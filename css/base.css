@@ -211,7 +211,7 @@ li{
 	width: 100%;
 	height: 845px;
 	color: #ffffff;
-	background-color: #48546d;
+	background-image: url(../images/footer-bg.png);
 }
 .footer .inner-wrap{
 	height: 100%;

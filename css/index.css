@@ -28,9 +28,13 @@
     border-radius: 12px;
     position: relative;
 }
+.choice-reasons .reasons-list li:hover img{
+    transform: scale(1.2);
+}
 .choice-reasons .reasons-list li img{
     width: 100%;
     display: block;
+    transition: all 0.6s;
 }
 .choice-reasons .reasons-list li:nth-child(even){
     float: right;
@@ -44,7 +48,7 @@
     justify-content: center;
     flex-direction: column;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 34px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -93,9 +97,17 @@
     position: relative;
     float: left;
     margin-right: 20px;
+    overflow: hidden;
+    border-radius: 5px;
 }
 .student-life .life-list .item:last-child{
     margin-right: 0;
+}
+.student-life .life-list .item img{
+    transition: all 0.6s;
+}
+.student-life .life-list .item:hover img{
+    transform: scale(1.2);
 }
 .student-life .life-list .mask{
     width: 100%;
@@ -211,17 +223,24 @@
     float: left;
     margin-right: 30px;
     margin-bottom: 30px;
+    overflow: hidden;
 }
+
 .good-schools .schools-list .item:last-child{
     margin-right: 0;
+}
+.good-schools .schools-list .item:hover img{
+    transform: scale(1.2);
 }
 .good-schools .schools-list .item .img-wrap{
     width: 380px;
     height: 380px;
     text-align: center;
+    overflow: hidden;
 }
 .good-schools .schools-list .item .img-wrap img{
     max-width: 100%;
+    transition: all 0.6s;
 }
 .good-schools .schools-list .item .text{
     padding: 0 20px;
@@ -262,11 +281,6 @@
 .hot-spots .spots-list{
     margin-bottom: 77px;
 }
-.hot-spots .spots-list .item .img-wrap{
-    width: 380px;
-    height: 290px;
-    overflow: hidden;
-}
 .hot-spots .spots-list .item{
     width: 380px;
     height: 582px;
@@ -278,18 +292,29 @@
 .hot-spots .spots-list .item:last-child{
     margin-right: 0;
 }
-.hot-spots .spots-list .item .text{
-    padding: 15px;
-    box-sizing: border-box;
+
+.hot-spots .spots-list .item:hover img{
+    transform: scale(1.2);
 }
 .hot-spots .spots-list .item .img-wrap{
+    width: 380px;
+    height: 290px;
     margin-bottom: 10px;
     border-radius: 6px;
     overflow: hidden;
 }
+
 .hot-spots .spots-list .item .img-wrap img{
     max-width: 100%;
+    transition: all 0.6s;
 }
+
+.hot-spots .spots-list .item .text{
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
 .hot-spots .spots-list .item .text h3{
     font-size: 14px;
     font-weight: 400;
@@ -314,7 +339,5 @@
     bottom: 20px;
 }
 
-/* 底部 */
-.footer{
-	background-image: url(../images/footer-bg.png);
-}
+
+
