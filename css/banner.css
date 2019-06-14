@@ -5,26 +5,29 @@
 	 position: relative;
  }
 .cb-slideshow li:nth-child(1) span {
-	background-image: url(../images/banner01.jpg)
+	background-image: url(../images/banner01.png)
 }
  
 .cb-slideshow li:nth-child(2) span {
-	background-image: url(../images/banner02.jpg)
+	background-image: url(../images/banner02.png)
 }
  
 .cb-slideshow li:nth-child(3) span {
-	background-image: url(../images/banner03.jpg)
+	background-image: url(../images/banner03.png)
 }
 .cb-slideshow li:nth-child(4) span {
-	background-image: url(../images/banner01.jpg)
+	background-image: url(../images/banner04.png)
 } 
  
 .cb-slideshow li:nth-child(5) span {
-	background-image: url(../images/banner02.jpg)
+	background-image: url(../images/banner05.png)
 }
  
 .cb-slideshow li:nth-child(6) span {
-	background-image: url(../images/banner03.jpg)
+	background-image: url(../images/banner06.png)
+}
+.cb-slideshow li:nth-child(7) span {
+	background-image: url(../images/banner07.png)
 }
  
 .cb-slideshow,.cb-slideshow:after {
@@ -98,6 +101,13 @@
 	-o-animation-delay: 30s;
 	-ms-animation-delay: 30s;
 	animation-delay: 30s
+}
+.cb-slideshow li:nth-child(7) span {
+	-webkit-animation-delay: 36s;
+	-moz-animation-delay: 36s;
+	-o-animation-delay: 36s;
+	-ms-animation-delay: 36s;
+	animation-delay: 36s
 }
  
 @-webkit-keyframes imageAnimation {
