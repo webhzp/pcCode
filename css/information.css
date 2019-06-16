@@ -20,7 +20,7 @@
     transition: all 0.6s;
 }
 .information-list .list-item .text h3{
-    line-height: 84px;
+    line-height: 60px;
     font-size: 30px;
     color: #4a90e2;
 }
@@ -28,7 +28,6 @@
     color: #4a90e2;
 }
 .information-list .list-item .text p{
-    line-height: 50px;
     color: #4a90e2;
     font-size: 20px;
 }
