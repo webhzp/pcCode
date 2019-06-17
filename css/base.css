@@ -96,7 +96,7 @@ li{
 	-ms-flex-align: center;
 	align-items: center;
 }
-.header .top .tel{
+.header .top .inner-wrap>div{
 	margin-right: 45px;
 }
 .header .top .icon{
