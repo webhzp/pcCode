@@ -97,14 +97,16 @@ li{
 	align-items: center;
 }
 .header .top .inner-wrap>div{
+	height: 30px;
+	display: flex;
+	align-items: center;
 	margin-right: 45px;
 }
 .header .top .icon{
 	width: 30px;
 	height: 30px;
 	display: inline-block;
-	vertical-align: middle;	
-	margin-right: 15px;
+	margin-right: 5px;
 }
 .header .top .icon img{
 	width: 100%;

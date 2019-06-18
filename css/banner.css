@@ -154,13 +154,9 @@
 	z-index: 3;
 	transform: translate(-50%,-50%);
 }
-.show-content .logo{
-	width: 260px;
-	height: ;
-}
+
 .show-content .logo{
     width: 260px;
-	height: 100%;
 	margin: 0 auto;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -174,5 +170,6 @@
 }
 .show-content .idea{
 	font-size: 78px;
+	color: #ffffff;
 	font-family: 'pangmenzhengdao';
 }
