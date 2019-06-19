@@ -84,18 +84,41 @@
 
 /* 页码 */
 .page{
-    text-align: center;
+    height: 88px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 20px auto;
 }
 .page a{
     width: 88px;
     height: 88px;
     line-height: 88px;
     text-align: center;
-    font-size: 14px;
+    font-size: 22px;
     color: #9b9b9b;
     display: inline-block;
     background-color: #eeeeee;
     border-radius: 50%;
+    margin: 0 5px;
+}
+.page .prev{
+    width: 88px;
+    height: 88px;
+    background: url(../images/page-prev.png) no-repeat;
+    background-size: 100%;
+}
+.page .next{
+    width: 88px;
+    height: 88px;
+    background: url(../images/page-next.png) no-repeat;
+    background-size: 100%;
 }
 .page a.active{
     color: #4a90e2;
