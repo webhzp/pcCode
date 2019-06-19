@@ -248,6 +248,9 @@
     background-color: #eeeeee;
     padding-top: 50px;
 }
+.schools-list{
+    margin-bottom: 30px;
+}
 .good-schools .schools-list .item{
     width: 380px;
     height: 550px;
@@ -309,7 +312,7 @@
     font-weight: 400;
     text-align: center;
     background-color: #253b94;
-    border-radius: 15px;
+    border-radius: 45px;
     margin: 0 auto;
 }
 .more-link a{
