@@ -1,5 +1,6 @@
 .advert-wrap{
-    height: 800px;
+    height: 400px;
+    overflow: hidden;
 }
 
 .content{
