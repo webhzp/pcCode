@@ -146,17 +146,38 @@ li{
 	margin-left: -600px;
 	z-index: 10;
 }
+.nav .nav-list{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
 .nav .nav-item{
 	font-size: 18px;
 	height: 85px;
 	line-height: 85px;
 	float: left;
-	margin-left: 45px;
 	cursor: pointer;
 	position: relative;
+	display: flex;
+	align-items: center;
+}
+.nav .nav-item::after{
+	content: '';
+	width: 3px;
+	height: 28px;
+	background-color: #fff;
+	display: inline-block;
+	
+}
+.nav .nav-item:last-child::after{
+	display: none;
 }
 .nav .nav-item a{
 	color: #ffffff;
+}
+.nav .nav-item span{
+	padding:0 40px;
+	box-sizing: border-box;
 }
 .nav .nav-item.active a{
 	color: #4a90e2;
@@ -167,35 +188,22 @@ li{
 .nav .nav-item:hover a{
 	color: #4a90e2;
 }
-.nav .nav-item:hover .iconfont:before{
-	display: inline-block;
-	transform: rotate(180deg);  
-	-webkit-transform: rotate(180deg);  
-	-moz-transform: rotate(180deg);  
-	-o-transform: rotate(180deg);  
-	-ms-transform: rotate(180deg); 
-}
-.nav .iconfont::before{
-	transition: all 0.3s ease-in-out;  
-	-webkit-transition: all 0.3s ease-in-out;  
-	-moz-transition: all 0.3s ease-in-out;  
-	-o-transition: all 0.3s ease-in-out;  
-}
+
 
 /* 二级导航 */
 .nav .sub-list{
-	width: 138px;
+	width: 148px;
 	background-color: #fff;
 	display: none;
 	position: absolute;
 	top:85px;
-	left: 0;
+	left: 20px;
 	z-index: 99;
 }
 .nav .sub-list .sub-item{
 	height: 34px;
 	line-height: 34px;
-	font-size: 12px;
+	font-size: 14px;
 }
 .nav .sub-list .sub-item a{
 	color: #1c1c1c;
@@ -217,31 +225,31 @@ li{
 /* 公共底部 */
 .footer{
 	width: 100%;
-	height: 845px;
+	height: 648px;
 	color: #ffffff;
-	background-image: url(../images/footer-bg.png);
+	background:#1c1a1a;
 }
 .footer .inner-wrap{
 	height: 100%;
-	padding-left: 230px;
-	box-sizing: border-box;
 	position: relative;
+}
+.footer .left{
+	float: left;
 }
 
 .footer .logo{
-	width: 258px;
-	margin-top: 180px;
-	margin-right: 138px;
-	float: left;
+	width: 245px;
+	margin-top: 100px;
+	margin-bottom: 25px;
 }
 .footer .logo img{
 	width: 100%;
 }
 .footer .qr-code{
 	text-align: center;
-	margin-top: 164px;
-	margin-right: 94px;
-	float: left;
+	margin-top: 100px;
+	margin-right: 80px;
+	float: right;
 }
 .footer .qr-code p{
 	line-height: 55px;
@@ -254,19 +262,18 @@ li{
 }
 
 .footer .copyright{
-	font-size: 18px;
+	font-size: 24px;
 	margin-bottom: 70px;
 }
 
 .footer .contact-way{
-	width: 366px;
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 }
 .footer .contact-way div{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	font-size: 18px;
+	font-size: 24px;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
@@ -282,6 +289,9 @@ li{
 	display: inline-block;
 	margin-right: 15px;
 	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .footer .contact-way .icon img{
 	max-width: 100%;
@@ -291,22 +301,6 @@ li{
 	-webkit-box-flex: 1;
 	-ms-flex: 1;
 	flex: 1;
-}
-
-.footer .footerNav li{
-	float: left;
-	height: 20px;
-	line-height: 20px;
-	font-size: 18px;
-	border-right: 2px solid #ffffff;
-	padding:0 9px;
-	box-sizing: border-box;
-}
-.footer .footerNav li:last-child{
-	border-right: none;
-}
-.footer .footerNav li a {
-	color: #ffffff;
 }
 
 /* 咨询按钮 */
