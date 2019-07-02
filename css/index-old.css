@@ -1,0 +1,392 @@
+/* 公共标题1 */
+.title{
+    height: 228px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.title h3{
+    font-size: 34px;
+}
+.title h4{
+    font-size: 24px;
+}
+
+/* 选择理由 */
+.choice-reasons{
+    padding-bottom: 94px;
+}
+.choice-reasons .title{
+    font-size: 60px;
+    font-family: pangmenzhengdao;
+}
+.choice-reasons .reasons-list{
+    padding: 0 50px;
+}
+.choice-reasons .reasons-list li{
+    width: 540px;
+    height: 424px;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    position: relative;
+}
+.choice-reasons .reasons-list li:hover img{
+    transform: scale(1.2);
+}
+.choice-reasons .reasons-list li img{
+    width: 100%;
+    display: block;
+    transition: all 0.6s;
+}
+.choice-reasons .reasons-list li:nth-child(even){
+    float: right;
+}
+.choice-reasons .reasons-list li .mask{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background: rgba(0,0,0,.3);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 34px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/* 公共标题2 */
+.headline{
+    height: 250px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.headline h3{
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.headline span{
+    width: 28px;
+    height: 1px;
+    background-color: #4a90e2;
+    display: inline-block;
+}
+
+/* 学员生活 */
+.student-life{
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+.student-life .life-list .item{
+    width: 282px;
+    height: 422px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.student-life .life-list .item:last-child{
+    margin-right: 0;
+}
+.student-life .life-list .item img{
+    transition: all 0.6s;
+}
+.student-life .life-list .item:hover img{
+    transform: scale(1.2);
+}
+.student-life .life-list .mask{
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: rgba(0,0,0,.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.student-life .life-list .mask h3{
+    font-size: 30px;
+}
+.student-life .life-list .mask h4{
+    font-size: 24px;
+}
+
+
+/* 校园视频 */
+.video-wrap{
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+.video-wrap .video{
+    width: 1200px;
+    height: 680px;
+    margin: 0 auto;
+    background: url(../images/video-bg.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.video-wrap .video .prism-player{
+    width: 690px;
+    height: 388px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 3;
+    transform: translate(-50%,-50%);
+}
+.video-wrap .video .more{
+    width: 180px;
+    height: 58px;
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+}
+.video-wrap .video .more a{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.video-wrap .video .more .icon{
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #4a90e2;
+    font-size: 30px;
+}
+
+/* 公共小标题 */
+.decTit{
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+
+/* 故事 */
+.story-wrap{
+    width: 971px;
+    display: block;
+    margin: 48px auto 0;
+    display: block;
+}
+.story-wrap img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* 优质学校 */
+.good-schools{
+    background-color: #eeeeee;
+    padding-top: 50px;
+}
+.schools-list{
+    margin-bottom: 30px;
+}
+.good-schools .schools-list .item{
+    width: 380px;
+    height: 550px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #ccc;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.good-schools .schools-list .item:last-child{
+    margin-right: 0;
+}
+.good-schools .schools-list .item:hover img{
+    transform: scale(1.2);
+}
+.good-schools .schools-list .item:hover .text{
+    color: #253b94;
+}
+.good-schools .schools-list .item a{
+    width: 100%;
+    height: 100%;
+    color: #4a90e2;
+    display: block;
+}
+.good-schools .schools-list .item .img-wrap{
+    width: 380px;
+    height: 380px;
+    text-align: center;
+    overflow: hidden;
+}
+.good-schools .schools-list .item .img-wrap img{
+    max-width: 100%;
+    transition: all 0.6s;
+}
+.good-schools .schools-list .item .text{
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.good-schools .schools-list .item .text h3{
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+}
+}
+
+.good-schools .schools-list .item .text p{
+    font-size: 12px;
+}
+
+/* 公共链接 */
+.more-link{
+    width: 388px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #253b94;
+    border-radius: 45px;
+    margin: 0 auto;
+}
+.more-link a{
+    color: #ffffff;
+    display: block;
+}
+
+
+/* 热门景点 */
+.hot-spots{
+    background-color: #eeeeee;
+    padding-bottom: 78px;
+}
+.hot-spots .spots-list{
+    margin-bottom: 77px;
+}
+.hot-spots .spots-list .item{
+    width: 380px;
+    height: 582px;
+    background-color: #fff;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+.hot-spots .spots-list .item:last-child{
+    margin-right: 0;
+}
+
+.hot-spots .spots-list .item:hover img{
+    transform: scale(1.2);
+}
+.hot-spots .spots-list .item .img-wrap{
+    width: 380px;
+    height: 290px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.hot-spots .spots-list .item .img-wrap img{
+    max-width: 100%;
+    transition: all 0.6s;
+}
+
+.hot-spots .spots-list .item .text{
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+.hot-spots .spots-list .item .text h3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #2b2b2b;
+}
+.hot-spots .spots-list .item .text .date{
+    color:#afafaf;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.hot-spots .spots-list .item .text .dec{
+    line-height: 18px;
+    color: #2b2b2b;
+    font-size: 12px;
+}
+.hot-spots .spots-list .item .text .link{
+    color: #4a90e2;
+    font-size: 14px;
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+}
+
+
+

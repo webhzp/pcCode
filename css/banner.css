@@ -143,33 +143,23 @@
 	background: rgba(0,0,0,0.3);
 	transition: background .5s ease-in-out;
 	position: absolute;
+	left: 0;
+	top: 0;
 	z-index: 2;
 }
 
-.show-content{
+.idea{
+	width: 1200px;
+	height: 312px;
+	line-height: 312px;
+	font-size: 78px;
+	background:rgba(0,0,0,.5);
+	color: #ffffff;
+	font-family: 'pangmenzhengdao';
 	text-align: center;
 	position: absolute;
 	left: 50%;
 	top: 50%;
 	z-index: 3;
 	transform: translate(-50%,-50%);
-}
-
-.show-content .logo{
-    width: 260px;
-	margin: 0 auto;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-}
-.show-content .logo img{
-	width: 100%;
-}
-.show-content .idea{
-	font-size: 78px;
-	color: #ffffff;
-	font-family: 'pangmenzhengdao';
 }
