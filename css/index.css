@@ -38,7 +38,8 @@
     font-size: 24px;
     text-align: center;
     padding-bottom: 18px;
-    border-bottom: 2px solid #040000;
+    color: #fd9c27;
+    border-bottom: 2px solid #fd9c27;
     margin-bottom: 15px;
 }
 .choice-reasons .reasons-list li .main p{
@@ -287,7 +288,7 @@
     margin-right: 0;
 }
 .good-schools .schools-list .item .img-wrap:hover img{
-    transform: scale(.9);
+    transform: scale(1.1);
 }
 /* .good-schools .schools-list .item:hover .main{
     color: #253b94;
@@ -351,8 +352,6 @@
     background-color: #eeeeee;
     padding-bottom: 196px;
 }
-
-
 /* 轮播图2 */
 .hot-spots .slider-content{
     width: 1200px;
