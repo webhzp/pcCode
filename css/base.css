@@ -89,6 +89,7 @@ li{
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
+	font-family: '微软雅黑';
 }
 .inner-wrap{
 	width: 1200px;
@@ -142,7 +143,7 @@ li{
 
 /* 广告图 */
 .header .adv-container{
-	width: 1920px;
+	width: 100%;
 	height: 400px;
 	margin-bottom: 30px;
 	position: relative;
