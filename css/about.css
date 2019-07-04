@@ -40,7 +40,7 @@
 
 .headline{
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .headline h3{
     font-size: 28px;
@@ -114,6 +114,7 @@
 .dormitory-picture .item:nth-child(even){
     float: right;
 }
+
 .dormitory-close{
     margin-bottom: 116px;
 }
@@ -123,6 +124,76 @@
     font-size: 30px;
     margin-bottom: 80px;
 }
+
+
+/* 课程选择 */
+.course-close .close-item h1{
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    background-color: #253b94;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.course-close .close-item .thead{
+    height: 54px;
+    line-height: 54px;
+    background-color: #ffffff;
+    font-size: 28px;
+    color: #253b94;
+    display: flex;
+}
+.course-close .close-item .thead span{
+    display: block;
+    text-align: center;
+}
+.course-close .close-item .thead span:nth-child(1){
+    width: 25%;
+    /* background-color: #000; */
+}
+.course-close .close-item .thead span:nth-child(2){
+    width: 50%;
+    /* background-color: #ccc; */
+}
+.course-close .close-item .thead span:nth-child(3){
+    width: 25%;
+    /* background-color:red; */
+}
+.course-close .close-item .tbody {
+    margin-bottom: 54px;
+}
+.course-close .close-item .tbody li{
+    height: 54px;
+    line-height: 54px;
+    background-color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    color: #253b94;
+    display: flex;
+}
+.course-close .close-item .tbody li .label{
+    width: 25%;
+    font-size: 26px;
+    font-weight: bold;
+}
+.course-close .close-item .tbody li .course{
+    width: 50%;
+}
+.course-close .close-item .tbody li .other{
+    width: 25%;
+}
+.course-close .close-item .tbody li .house-type{
+    margin-right: 150px;
+}
+.course-close .close-item .tbody li:nth-child(odd){
+    background-color: #eeeeee;
+}
+.course-close .close-item .tbody li:hover{
+    background-color: #eeeeee;
+}
+
+
 .content .consultBtn{
 	width: 290px;
 	height: 70px;
