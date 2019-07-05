@@ -82,7 +82,8 @@
 /* 资讯分类 */
 .category{
 	padding: 70px 0;
-	box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 60px;
 }
 .category .title{
 	height: 50px;

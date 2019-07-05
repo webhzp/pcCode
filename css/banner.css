@@ -5,7 +5,7 @@
 	 position: relative;
  }
 .cb-slideshow li:nth-child(1) span {
-	background-image: url(../images/banner01.png)
+	background-image: url(../images/banner06.png)
 }
  
 .cb-slideshow li:nth-child(2) span {
@@ -16,7 +16,7 @@
 	background-image: url(../images/banner03.png)
 }
 .cb-slideshow li:nth-child(4) span {
-	background-image: url(../images/banner04.png)
+	background-image: url(../images/banner07.png)
 } 
  
 .cb-slideshow li:nth-child(5) span {
