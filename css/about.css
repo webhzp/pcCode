@@ -150,15 +150,12 @@
 }
 .course-close .close-item .thead span:nth-child(1){
     width: 25%;
-    /* background-color: #000; */
 }
 .course-close .close-item .thead span:nth-child(2){
     width: 50%;
-    /* background-color: #ccc; */
 }
 .course-close .close-item .thead span:nth-child(3){
     width: 25%;
-    /* background-color:red; */
 }
 .course-close .close-item .tbody {
     margin-bottom: 54px;
