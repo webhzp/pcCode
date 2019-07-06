@@ -3,8 +3,9 @@
 }
 .big-picture{
     width: 1200px;
-    height: 1110px;
+    height:520px;
     margin-bottom: 40px;
+    overflow: hidden;
 }
 .big-picture img{
     width: 100%;
