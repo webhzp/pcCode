@@ -533,16 +533,89 @@
 .service-flow{
     background-color: #eeeeee;
 }
-.flow-wrap{
+.service-flow .flow-wrap{
     width: 100%;
     height: 543px;
     background: url(../images/liucheng-bg.png) no-repeat center center;
     box-sizing: 1920px 543px;
 }
-.flow-item{
-    width: 200px;
-    height: 200px;
+.service-flow .flow-wrap .inner-wrap{
+    display: flex;
 }
-.flow-item:hover .icon img{
-    box-shadow: 0 0 10px #f00;
+.service-flow .flow-item{
+    width: 20%;
+    height:543px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 32px;
+    padding:115px 20px 20px;
+    box-sizing: border-box;
+}
+.service-flow .flow-item.active{
+    background: rgba(0, 0, 0, .5);
+}
+.service-flow .flow-item .icon{
+    width: 130px;
+    height: 130px;
+    display: block;
+}
+.service-flow .flow-item:nth-child(1) .icon{
+    background: url(../images/service-flow-icon01.png) no-repeat;
+    background-size: 100%;
+}
+.service-flow .flow-item:nth-child(1):hover .icon{
+    background: url(../images/service-flow-icon01-hover.png) no-repeat;
+    background-size: 100%;
+}
+.service-flow .flow-item:nth-child(2) .icon{
+    background: url(../images/service-flow-icon02.png) no-repeat;
+    background-size: 100%;
+}
+.service-flow .flow-item:nth-child(2):hover .icon{
+    background: url(../images/service-flow-icon02-hover.png) no-repeat;
+    background-size: 100%;
+}
+.service-flow .flow-item:nth-child(3) .icon{
+    background: url(../images/service-flow-icon03.png) no-repeat;
+    background-size: 100%;
+}
+.service-flow .flow-item:nth-child(3):hover .icon{
+    background: url(../images/service-flow-icon03-hover.png) no-repeat;
+    background-size: 100%;
+}
+.service-flow .flow-item:nth-child(4) .icon{
+    background: url(../images/service-flow-icon04.png) no-repeat;
+    background-size: 100%;
+}
+.service-flow .flow-item:nth-child(4):hover .icon{
+    background: url(../images/service-flow-icon04-hover.png) no-repeat;
+    background-size: 100%;
+}
+.service-flow .flow-item:nth-child(5) .icon{
+    background: url(../images/service-flow-icon05.png) no-repeat;
+    background-size: 100%;
+}
+.service-flow .flow-item:nth-child(5):hover .icon{
+    background: url(../images/service-flow-icon05-hover.png) no-repeat;
+    background-size: 100%;
+}
+.service-flow .flow-item .title{
+    height: 60px;
+    margin-bottom: 10px;
+    display: table;
+}
+.service-flow .flow-item .title h3{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 18px;
+}
+.service-flow .flow-item .dec{
+    font-size: 14px;
+    line-height: 32px;
+}
+.service-flow .flow-item:hover{
+    background: rgba(0, 0, 0, .5);
 }

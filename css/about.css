@@ -120,6 +120,10 @@
     margin-bottom: 116px;
 }
 
+.course-suggest{
+    margin-bottom: 20px;
+}
+
 /* 课程选择 */
 .course-close .close-item h1{
     height: 64px;
