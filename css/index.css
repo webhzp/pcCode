@@ -539,6 +539,10 @@
     background: url(../images/liucheng-bg.png) no-repeat center center;
     box-sizing: 1920px 543px;
 }
-.flow-wrap .inner-wrap{
-    
+.flow-item{
+    width: 200px;
+    height: 200px;
+}
+.flow-item:hover .icon img{
+    box-shadow: 0 0 10px #f00;
 }
