@@ -341,6 +341,9 @@ li {
 .contact-us span{
 	font-size: 20px;
 }
+.footer .contact-way{
+	margin-bottom: 25px;
+}
 .footer .contact-way>div{
 	float: left;
 }
@@ -350,6 +353,7 @@ li {
 }
 .footer .contact-way .way-item{
 	height: 34px;
+	margin-bottom: 10px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -410,13 +414,13 @@ li {
 	display: block;
 }
 .footer .links{
-	margin-bottom: 40px;
+	margin-bottom: 35px;
 }
 .footer .links img{
 	margin: 0 6px;
 }
 .footer .copyright {
-	font-size: 24px;
+	font-size: 22px;
 }
 
 
